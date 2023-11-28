@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="es" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Camisetas</title>
+  <link rel="stylesheet" href="css/estilos.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light justify-content-cente">
+      <div class="collapse navbar-collapse">
+        <ul class="navbar-nav mx-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">Zapatos</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="camisetas.html">Camisetas</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="pantalones.html">Pantalones</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="gorras.html">Gorras</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <h1>Camisetas</h1>
+    <div id="accordion">
+      <div class="card">
+        <div class="card-header" id="headingOne">
+          <h5 class="mb-0">
+            <button class="btn btn-link" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+              Nike Dri-FIT Trail - $35
+            </button>
+          </h5>
+        </div>
+
+        <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
+          <div class="card-body">
+            <img class="img3" src="img/camiseta1.png" alt="Nike Dri-FIT Trail">
+            <p>Corre por senderos polvorientos y vive nuevas aventuras con esta playera absorbente de sudor...</p>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-header" id="headingTwo">
+          <h5 class="mb-0">
+            <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+              Nike Life - $70
+            </button>
+          </h5>
+        </div>
+        <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
+          <div class="card-body">
+            <img class="img3" src="img/camiseta2.png" alt="Nike Life">
+            <p>Esta playera tipo wafle tejida de alta densidad es gruesa, duradera y aporta comodidad a todo lo que haces fuera del deporte...</p>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-header" id="headingThree">
+          <h5 class="mb-0">
+            <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+              Nike Ready - $60
+            </button>
+          </h5>
+        </div>
+        <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
+          <div class="card-body">
+            <img class="img3" src="img/camiseta3.png" alt="Nike Ready">
+            <p>Mantén la frescura en todas tus actividades de fitness con la playera Ready absorbente de sudor...</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <footer>
+    <section>
+      <p>Pagina de Prueba 2023 - David Abrajan</p>
+    </section>
+  </footer>
+
+</body>
+
+</html>
